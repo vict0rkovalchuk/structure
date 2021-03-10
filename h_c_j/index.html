@@ -5,88 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="logo">WebStudio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div>
-      <img
-        src="../images/WebStudio.jpg"
-        alt="logotype"
-        class="img_logoHeader"
-      />
-      <h3>Студия</h3>
-      <h3>Портфолио</h3>
-      <h3>Контакты</h3>
-      <a href="">info@devstudio.com</a>
-      <h3>+38 096 111 11 11</h3>
-      <h1>Эффективные решения для вашего бизнеса</h1>
-      <button>Заказать услугу</button>
+    <header class="header">
+      <p class="webstudio"><span class="span">Web</span>Studio</p>
+      <h3 class="studio">Студия</h3>
+      <h3 class="portfolio">Портфолио</h3>
+      <h3 class="contacts">Контакты</h3>
+      <a href="#" class="email">info@devstudio.com</a>
+      <h3 class="phonenumber">+38 096 111 11 11</h3>
+    </header>
+
+    <div class="container">
+      <h1 class="bsn">Эффективные решения для вашего бизнеса</h1>
+      <button id="service"><p class="order-service">Заказать услугу</p></button>
     </div>
 
-    <div>
-      <h2><strong>Внимание к деталям</strong></h2>
+    <!-- <p class="order-service"><button id="service"></button>Заказать услугу</p> -->
 
-      <p>
+    <div>
+      <h3 class="attention"><strong>Внимание к деталям</strong></h3>
+      <p class="info1">
         Идейные соображения, а также начало повседневной работы по формированию
         позиции.
       </p>
     </div>
+
     <div>
-      <h2><strong>Пунктуальность</strong></h2>
-      <p>
+      <h3 class="pynk"><strong>Пунктуальность</strong></h3>
+      <p class="info2">
         Задача организации, в особенности же рамки и место обучения кадров
         влечет за собой.
       </p>
     </div>
+
     <div>
-      <h2><strong>Планирование</strong></h2>
-      <p>
+      <h3 class="plan"><strong>Планирование</strong></h3>
+      <p class="info3">
         Равным образом консультация с широким активом в значительной степени
         обуславливает.
       </p>
     </div>
+
     <div>
-      <h2><strong>Современные технологии</strong></h2>
-      <p>
+      <h3 class="techno"><strong>Современные технологии</strong></h3>
+      <p class="info4">
         Значимость этих проблем настолько очевидна, что реализация плановых
         заданий.
       </p>
     </div>
 
     <div>
-      <h1><strong>Чем мы занимаемся</strong></h1>
-
-      <img src="../images/img (2).jpg" alt="" />
-      <img src="../images/img (3).jpg" alt="" />
-      <img src="../images/img (4).jpg" alt="" />
+      <h1 class="specialization"><strong>Чем мы занимаемся</strong></h1>
+      <img id="img1" src="../images/img (2).jpg" alt="photo" />
+      <img id="img2" src="../images/img (3).jpg" alt="photo" />
+      <img id="img3" src="../images/img (4).jpg" alt="photo" />
     </div>
 
-    <div>
-      <h1><strong>Наша команда</strong></h1>
+    <article class="team">
+      <h1 class="our-team"><strong>Наша команда</strong></h1>
 
-      <div>
-        <img src="../images/img (5).jpg" alt="Igor" />
-        <p><strong>Игорь Демьяненко</strong></p>
-        <p>Product Designer</p>
+      <figure class="person1">
+        <img id="man1-1" src="../images/img (5).jpg" alt="Igor" />
+        <p class="Igor"><strong>Игорь Демьяненко</strong></p>
+        <p class="profession1-1">Product Designer</p>
+      </figure>
 
-        <img src="../images/img (6).jpg" alt="Olha" />
-        <p><strong> Ольга Репина</strong></p>
-        <p>Frontend Developer</p>
+      <figure class="person2">
+        <img id="woman1-1" src="../images/img (6).jpg" alt="Olha" />
+        <p class="Olha"><strong> Ольга Репина</strong></p>
+        <p class="profession1-2">Frontend Developer</p>
+      </figure>
 
-        <img src="../images/img (7).jpg" alt="Kolya" />
-        <p><strong>Николай Тарасов</strong></p>
-        <p>Marketing</p>
+      <figure class="person3">
+        <img id="man1-2" src="../images/img (7).jpg" alt="Kolya" />
+        <p class="Kolya"><strong>Николай Тарасов</strong></p>
+        <p class="profession1-3">Marketing</p>
+      </figure>
 
-        <img src="../images/img (8).jpg" alt="Michail" />
-        <p><strong>Михаил Ермаков</strong></p>
-        <p>UI Designer</p>
-      </div>
-    </div>
+      <figure class="person4">
+        <img id="man1-3" src="../images/img (8).jpg" alt="Michail" />
+        <p class="Michail"><strong>Михаил Ермаков</strong></p>
+        <p class="profession1-4">UI Designer</p>
+      </figure>
+    </article>
 
-    <footer>
-      <img src="../images/WebStudio.jpg" alt="" />
-      <p>г. Киев, пр-т Леси Украинки, 26</p>
-      <a href="">info@example.com</a>
-      <h3>+38 099 111 11 11</h3>
+    <footer class="footer">
+      <img id="logo" src="../images/WebStudio.jpg" alt="logotype" />
+      <p class="adres">г. Киев, пр-т Леси Украинки, 26</p>
+      <a id="emaail" href="">info@example.com</a>
+      <p class="number">+38 099 111 11 11</p>
     </footer>
   </body>
 </html>

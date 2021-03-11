@@ -87,6 +87,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .contacts {
@@ -102,6 +103,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .email {
@@ -133,6 +135,11 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+}
+
+.phonenumber:hover {
+  color: black;
 }
 
 .bsn {
@@ -158,26 +165,15 @@
   height: 50px;
   left: 700px;
   top: 350px;
+
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .order-service {
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 360px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
 }
 
@@ -620,6 +616,11 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+#emaail:hover {
+  color: #fff;
 }
 
 .number {
@@ -635,4 +636,9 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.number:hover {
+  color: #fff;
 }

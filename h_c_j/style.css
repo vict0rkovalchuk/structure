@@ -46,12 +46,12 @@
   height: 31px;
   left: 215px;
   top: 24px;
-  bottom: 25px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .span {
@@ -71,6 +71,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .portfolio {
@@ -116,6 +117,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .phonenumber {
@@ -138,12 +140,12 @@
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 280px;
+  top: 200px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 136%;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -155,7 +157,7 @@
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 430px;
+  top: 350px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -166,7 +168,7 @@
   width: 136px;
   height: 30px;
   left: 732px;
-  top: 440px;
+  top: 360px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -345,11 +347,10 @@
 
 .our-team {
   position: absolute;
-  width: 264px;
+  width: 265px;
   height: 42px;
   left: 668px;
-  top: 1543px;
-
+  top: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -357,7 +358,6 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 
@@ -366,43 +366,7 @@
   width: 270px;
   height: 368px;
   left: 215px;
-  top: 1635px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.person2 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.person3 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.person4 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 1635px;
+  top: 186px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -413,34 +377,262 @@
   position: absolute;
   width: 270px;
   height: 260px;
-  left: 215px;
-  top: 1635px;
+  left: 0px;
+  top: 0px;
   border-radius: 0px;
+}
+
+.Igor {
+  position: absolute;
+  width: 152px;
+  height: 19px;
+  left: 64px;
+  top: 290px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession1-1 {
+  position: absolute;
+  width: 132px;
+  height: 19px;
+  left: 70px;
+  top: 319px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.person2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 186px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 #woman1-1 {
   position: absolute;
   width: 270px;
   height: 260px;
-  left: 515px;
-  top: 1635px;
+  left: 0px;
+  top: 0px;
   border-radius: 0px;
+}
+
+.Olha {
+  position: absolute;
+  width: 110px;
+  height: 19px;
+  left: 81px;
+  top: 290px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession1-2 {
+  position: absolute;
+  width: 149px;
+  height: 19px;
+  left: 62px;
+  top: 319px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.person3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 186px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 #man1-2 {
   position: absolute;
   width: 270px;
   height: 260px;
-  left: 815px;
-  top: 1635px;
+  left: 0px;
+  top: 0px;
   border-radius: 0px;
+}
+
+.Kolya {
+  position: absolute;
+  width: 138px;
+  height: 19px;
+  left: 67px;
+  top: 290px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession1-3 {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 97px;
+  top: 319px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.person4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 186px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 #man1-3 {
   position: absolute;
   width: 270px;
   height: 260px;
-  left: 1115px;
-  top: 1635px;
+  left: 0px;
+  top: 0px;
   border-radius: 0px;
+}
+
+.Michail {
+  position: absolute;
+  width: 135px;
+  height: 19px;
+  left: 68px;
+  top: 290px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession1-4 {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 92px;
+  top: 319px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.webstudio-logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.span-logo {
+  color: #2196f3;
+}
+
+.adres {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+#emaail {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 141px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.number {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 171px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }

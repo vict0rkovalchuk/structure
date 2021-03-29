@@ -6,7 +6,7 @@ const findBestEmployee = function (employees) {
   // const key = Object.keys(employees).find((key) => employees[key] === max);
   for (let key in employees) {
     if (max === employees[key]) {
-      return `${key}`;
+      return key;
     }
   }
   // return key;

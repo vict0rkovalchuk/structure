@@ -4,7 +4,8 @@ const formatString = function (string) {
   let array = string.split("");
   if (array.length <= 40) {
     return string;
-  } else if (array.length > 40) {
+  }
+  if (array.length > 40) {
     let change = string.slice(0, 40);
     return `${change}...`;
   }

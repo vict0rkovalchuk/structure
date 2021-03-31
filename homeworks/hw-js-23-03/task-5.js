@@ -5,7 +5,8 @@ const checkForSpam = function (message) {
   let array = messageUpper.split(/\b/);
   if (array.includes("sale") || array.includes("spam")) {
     return true;
-  } else return false;
+  }
+  return false;
 };
 
 console.log(checkForSpam("Latest technology news"));

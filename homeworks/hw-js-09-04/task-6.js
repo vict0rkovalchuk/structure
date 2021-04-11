@@ -11,5 +11,5 @@ const getUsersWithAge = (users, min, max) =>
 //   });
 // };
 
-console.log(getUsersWithAge(users, 20, 30));
-console.log(getUsersWithAge(users, 30, 40));
+console.table(getUsersWithAge(users, 20, 30));
+console.table(getUsersWithAge(users, 30, 40));

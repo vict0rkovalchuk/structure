@@ -11,4 +11,4 @@ const getUsersWithEyeColor = (users, color) =>
 //   });
 // };
 
-console.log(getUsersWithEyeColor(users, "blue"));
+console.table(getUsersWithEyeColor(users, "blue"));

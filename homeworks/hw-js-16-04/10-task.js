@@ -2,15 +2,15 @@
 
 import scientists from "./scientists.js";
 
-let arrayOfLiviedYears = scientists
+let arrayOfLivedYears = scientists
   .reduce((acc, { dead, born }) => {
     acc.push(dead - born);
     return acc;
   }, [])
   .sort((a, b) => a - b);
 
-let least = arrayOfLiviedYears.shift();
-let most = arrayOfLiviedYears.pop();
+let least = arrayOfLivedYears.shift();
+let most = arrayOfLivedYears.pop();
 
 function findScientists(value) {
   let scientistOfLivedYears = scientists.find(({ dead, born }) => {

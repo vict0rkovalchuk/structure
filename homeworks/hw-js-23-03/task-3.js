@@ -12,9 +12,7 @@ const findLongestWord = function (string) {
     }
 
     for (let i = 0; i < items.length; i += 1) {
-      if (items[i].length === firstElement) {
-        console.log(items[i]);
-      }
+      if (items[i].length === firstElement) console.log(items[i]);
     }
   }
   longestWord(array);
